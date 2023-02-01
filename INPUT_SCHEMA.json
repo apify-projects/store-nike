@@ -1,0 +1,38 @@
+{
+    "title": "Nike.com actor",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "inputCountry": {
+            "title": "Country",
+            "type": "string",
+            "description": "Select country",
+            "editor": "select",
+            "default": "UNITED KINGDOM",
+            "enum": [
+                "USA",
+                "MEXICO",
+                "FRANCE",
+                "GERMANY",
+                "ITALY",
+                "AUSTRALIA",
+                "CANADA",
+                "SPAIN",
+                "UNITED KINGDOM",
+                "CHINA"
+            ],
+            "enumTitles": [
+                "USA",
+                "MEXICO",
+                "FRANCE",
+                "GERMANY",
+                "ITALY",
+                "AUSTRALIA",
+                "CANADA",
+                "SPAIN",
+                "UNITED KINGDOM",
+                "CHINA"
+            ]
+        }
+    }
+}
